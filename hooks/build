@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # See https://microbadger.com/labels
+# https://medium.com/microscaling-systems/labelling-automated-builds-on-docker-hub-f3d073fb8e1#.iai5s4tfn
+
+# $IMAGE_NAME var is injected into the build so the tag is correct.
 
 docker build --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
              --build-arg VCS_REF=`git rev-parse --short HEAD` \
