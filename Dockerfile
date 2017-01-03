@@ -7,6 +7,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
 LABEL org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.license="MIT" \
       org.label-schema.name="yarn-angular-cli-firebase-tools" \
       org.label-schema.description="Docker image based on NodeJS official image with Yarn, Angular CLI, and Firebase Tools installed." \
       org.label-schema.vcs-ref=$VCS_REF \
