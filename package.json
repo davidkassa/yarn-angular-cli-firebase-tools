@@ -20,6 +20,6 @@
   "dependencies": {
     "@angular/cli": "1.0.1",
     "firebase-tools": "3.6.1",
-    "yarn": "0.23.3"
+    "yarn": "0.23.4"
   }
 }
