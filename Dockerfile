@@ -1,3 +1,4 @@
+ARG NODE_VERSION=latest
 FROM node:$NODE_VERSION
 
 MAINTAINER davidkassa <david.kassa@gmail.com>
