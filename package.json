@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/davidkassa/yarn-angular-cli-firebase-tools#readme",
   "dependencies": {
-    "@angular/cli": "1.2.6",
+    "@angular/cli": "1.2.7",
     "firebase-tools": "3.9.2",
     "yarn": "0.27.5"
   }
