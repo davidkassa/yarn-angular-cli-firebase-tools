@@ -1,7 +1,7 @@
 # TBD? https://github.com/moby/moby/pull/31352
 # ARG NODE_VERSION=latest
 # FROM node:$NODE_VERSION
-FROM node:latest
+FROM node:8
 
 MAINTAINER davidkassa <david.kassa@gmail.com>
 
