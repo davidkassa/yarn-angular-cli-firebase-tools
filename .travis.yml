@@ -5,7 +5,7 @@ services:
 
 language: node_js
 node_js:
-  - "node"
+  - "lts/*"
   
 before_install:
   - docker build -t davidkassa/yarn-angular-cli-firebase-tools .
