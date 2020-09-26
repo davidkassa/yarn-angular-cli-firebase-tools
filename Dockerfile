@@ -25,5 +25,5 @@ RUN \
   && echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list \
   && apt-get update && apt-get install -y --force-yes \
      yarn \
-  && yarn global add @angular/cli firebase-tools
+  && yarn global add @angular/cli@v7-lts firebase-tools
   
